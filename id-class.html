@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Id & Class</title>
+	<style>
+		#headerrow {
+			background-color: red;
+		}
+		.mergedcells {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="index.html">Rowspan & Colspan</a> <a href="block-inline.html">Block & Inline</a> <a href="inline-internal-external.html">Inline, internal & external CSS</a> <a href="iframe.html">iFrame</a> Id & Class<br /><br />
+	<h1>Header row is colored using Id headerrow and merged cells are colored using class mergedcells</h1>
+	<table border="1" cellspacing="0" cellpadding="3">
+		<tr id="headerrow">
+			<th>Name</th><th colspan="2">Area (km<sup>2</sup>) & Population (2011)</th>
+		</tr>
+		<tr>
+			<td rowspan="3" class="mergedcells">Dhaka, Faridpur & Gazipur</td><td>1,463.60</td><td>12,043,977</td>
+		</tr>
+		<tr>
+			<td>2,052.68</td><td>1,912,969</td>
+		</tr>
+		<tr>
+			<td>1,806.36</td><td>3,403,912</td>
+		</tr>
+		<tr>
+			<td rowspan="3" class="mergedcells">Gopalganj, Kishoreganj & Madaripur</td><td>1,468.74</td><td>1,172,415</td>
+		</tr>
+		<tr>
+			<td>2,688.59</td><td>2,911,907</td>
+		</tr>
+		<tr>
+			<td>1,125.69</td><td>1,165,952</td>
+		</tr>
+		<tr>
+			<td rowspan="3" class="mergedcells">Manikganj, Munshiganj & Narayanganj</td><td>1,383.66</td><td>1,392,867</td>
+		</tr>
+		<tr>
+			<td>1,004.29</td><td>1,445,660</td>
+		</tr>
+		<tr>
+			<td>684.37</td><td>2,948,217</td>
+		</tr>
+		<tr>
+			<td rowspan="4" class="mergedcells">Narsingdi, Rajbari, Shariatpur & Tangail</td><td>1,150.14</td><td>2,224,944</td>
+		</tr>
+		<tr>
+			<td>1,092.28</td><td>1,049,778</td>
+		</tr>
+		<tr>
+			<td>1,174.05</td><td>1,155,824</td>
+		</tr>
+		<tr>
+			<td>3,414.35</td><td>3,750,781</td>
+		</tr>
+	</table>
+	<br /><br /><small>Source: Wikipedia</small>
+</body>
+</html>
